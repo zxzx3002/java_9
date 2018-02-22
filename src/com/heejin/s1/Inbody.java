@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Inbody {
 	public void check(Member member) {
+		Scanner sc = new Scanner(System.in);
 		/*System.out.println("이름을 입력하세요");
 		mb.name=sc.next();
 		System.out.println("나이를 입력하세요");

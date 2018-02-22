@@ -10,8 +10,8 @@ public class Main {
 		member.height=sc.nextInt();
 		System.out.println("몸무게를 입력하세요");
 		member.weight=sc.nextInt();
+		member.info();
 		Inbody inbody = new Inbody();
 		inbody.check(member);
-
 	}
 }
