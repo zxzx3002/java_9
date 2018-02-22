@@ -1,7 +1,6 @@
 package com.heejin.s1;
 
 public class Member {
-	int age;
 	private String name;
 	private int age;
 	private String sex;
